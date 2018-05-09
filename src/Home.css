@@ -1,6 +1,7 @@
 .Rectangle-Copy-2 {
+    margin-left: auto;
+    margin-right: auto;
 
-    margin: auto;
     width: 960px;
     height: 817px;
     object-fit: contain;
@@ -9,19 +10,23 @@
 
 .Rectangle-4 {
 
-    margin: 51px auto;
+    display: inline-block;
+    margin-top: 51px;
+    margin-left: 80px;
+    margin-right: 81px;
     width: 799px;
     height: 162px;
     object-fit: contain;
     border-radius: 15px;
-    background-image: linear-gradient(157deg, #3023ae, #c86dd7);
+    background-color: #6f5a82;
 }
 
 .Wallet {
-
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 14px;
+    margin-bottom: 13px;
+    margin-top: 14px;
+    margin-right: 368px;
+    margin-left: 368px;
+    display: inline-block;
     width: 63px;
     height: 29px;
     object-fit: contain;
@@ -34,248 +39,43 @@
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-
-}
-
-.Input {
-    padding-top: 10px;
-    width: 696px;
-    height: 57px;
-    font-family: Roboto;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-
 }
 
 .Rectangle-2-Copy-10 {
-    padding-top: 10px;
+    margin-left: 54px;
+    margin-right: 49px;
+    display: inline-block;
     width: 696px;
-    margin: auto;
-    height: 50px;
+    height: 57px;
     object-fit: contain;
     opacity: 0.3;
     border-radius: 8px;
     background-color: #ffffff;
-
-    font-size: 2em;
-
-}
-
-.Label {
-    margin-top: 63px;
-    margin: 5px auto;
-    text-align: center;
-}
-
-.xa5b28931b3ee0cb776 {
-    margin-right: 696px;
-    width: 696px;
-    height: 57px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-}
-
-.layer {
-    padding-left: 150px;
-    left: 540px;
-    top: 326px;
-    right: 539px;
-    bottom: 492px;
-    position: absolute;
-
-    display: inline-block;
-    width: 29px;
-
-    height: 66px;
-
-    object-fit: contain;
-    display: inline-block;
-    font-family: Roboto;
-    font-size: 50px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #7fa99b;
-}
-
-.-copy {
-    padding-left: 150px;
-    top: 326px;
-    bottom: 492px;
-    right: 393px;
-    left: 31%;
-    position: absolute;
-    display: inline-block;
-    width: 29px;
-    height: 66px;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 50px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #d95858;
+    border: solid 2px #ffffff;
 }
 
 .Rectangle-Copy {
+    display: inline-block;
+    margin-top: 37px;
+    margin-left: 1px;
+    width: 797px;
+    height: 569px;
     object-fit: contain;
     background-color: #ffffff;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 
-.ETHER-ON-CHAIN {
-    padding-top: 37px;
-    padding-left: 519px;
-    top: 397px;
-    right: 507px;
-    left: 47%;
-    bottom: 435px;
-    margin: auto;
-    display: inline-block;
-    object-fit: contain;
-    font-family: Roboto;
-    font-size: 19.8px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-.ETHER-ON-CHAIN .text-style-1 {
-    font-weight: bold;
-}
-
-.NEW-BUTTON {
-    padding-top: 50px;
-}
-
-.ETHER-OFF-CHAIN {
-    display: inline-block;
-    padding-top: 37px;
-    padding-left: 70px;
-    top: 397px;
-    left: 45%;
-    right: 357px;
-    bottom: 435px;
-    margin: auto;
-    object-fit: contain;
-    font-family: Roboto, serif;
-    font-size: 19.8px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-.ETHER-OFF-CHAIN .text-style-1 {
-    font-weight: bold;
-}
-
-.Rectangle-3 {
-    width: 214px;
-    height: 50px;
-    margin-left: 33%;
- /*  margin-right: 488px;*/
-    border-radius: 11px;
-    background-color: #ececec;
-    border: 0px;
-}
-
-.AMOUNT {
-
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #4a4a4a;
-}
-
-.Rectangle {
-
-
-    background: #fff;
-    margin: 0 5px 15px 0;
-    text-align: center;
-    float: left;
-    padding-left: inherit;
-    display: inline-block;
-    top: 516px;
-/*    right: 258px;
-    left: 488px;*/
-    bottom: 318px;
-    margin-top: -51px;
- /*   margin-right: 258px;*/
-    margin-left: 50%;
-
-    width: 214px;
-    height: 50px;
-  border-radius: 11px;
-  background-color: #f5a623;
-    border: 0px;
-}
-.DEPOSIT {
+.xa5b28931b3ee0cb776 {
+  width: 487px;
+  height: 28px;
+  object-fit: contain;
   font-family: Roboto;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 21px;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-}
-.Rectangle-3-Copy {
-  width: 444px;
-  height: 50px;
-  border-radius: 11px;
-  border: solid 2px #e1e1e1;
-}
-.RECEPIENT-ADDRESS {
-
-  width: 202px;
-  height: 26px;
-  opacity: 0.4;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #4a4a4a;
-}
-.end{
-    padding-left: 43%;
-    padding-top: 30px;
+  text-align: left;
+    text-color: #ffffff;
 }

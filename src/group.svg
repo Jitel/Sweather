@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="33" viewBox="0 0 147 33">
+    <defs>
+        <linearGradient id="a" x1="0%" x2="102%" y1="0%" y2="101%">
+            <stop offset="0%" stop-color="#3023AE"/>
+            <stop offset="100%" stop-color="#C86DD7"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 -5)">
+        <text fill="#000" font-family="Roboto, Somatic" font-size="30.347" opacity=".9">
+            <tspan x="37.534" y="30">swether</tspan>
+        </text>
+        <path stroke="url(#a)" stroke-linecap="square" stroke-width="2.396" d="M11.436 29.857l6.133-1.906"/>
+        <circle cx="22.361" cy="26.354" r="5.59" fill="url(#a)" stroke="#FFF" stroke-width=".799"/>
+        <path stroke="url(#a)" stroke-linecap="square" stroke-width="2.396" d="M6.123 25.555l.998-3.743"/>
+        <circle cx="5.99" cy="31.545" r="5.99" fill="url(#a)" stroke="#FFF" stroke-width=".799"/>
+        <circle cx="7.986" cy="14.375" r="7.986" fill="url(#a)" stroke="#FFF" stroke-width=".799"/>
+    </g>
+</svg>

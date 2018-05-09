@@ -15,8 +15,8 @@ class Withdrawal extends Component {
                         <div>
                             <input font-size="2em" className="Rectangle-2-Copy-10" list='languages'
                                    placeholder='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
-                            <datalist className="xa5b28931b3ee0cb776" id='languages'>
-                                <optionc value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
+                            <datalist className="xa5b28931b3ee0cb776" id='wallet'>
+                                <option value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
                             </datalist>
                         </div>
                     </div>

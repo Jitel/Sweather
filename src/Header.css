@@ -1,20 +1,36 @@
-.Logo {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.bo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:focus {
+    outline: none;
+}
+.Group {
+    margin-bottom: 18px;
+    margin-top: 13px;
+    margin-right: 63px;
+    margin-left: 0;
     width: 147px;
     height: 36px;
     object-fit: contain;
+
 }
 
 .Header {
-
-    margin: 5px auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 960px;
     height: 67px;
     object-fit: contain;
     background-color: #ffffff;
+    font-family: 'Roboto';
 }
 
+/*    deposit button     */
 .Deposit {
-
     width: 73px;
     height: 28px;
     object-fit: contain;
@@ -26,20 +42,28 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #3a5370;
+    color: #4a4a4a;
+
 }
 
 .Rectangle-5 {
-    margin: auto;
-    width: 124px;
+    width: 136px;
     height: 35px;
     object-fit: contain;
     border-radius: 11px;
-    background-color: #efefef;
+    background-color: #ffffff;
+    border: 0;
+
 }
 
+.Rectangle-5:hover {
+    background-color: #eef0f3;
+}
+
+/*    transfer button     */
+
 .Transfer {
-    margin: auto;
+    margin-left: 0;
     width: 80px;
     height: 28px;
     object-fit: contain;
@@ -50,11 +74,28 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    border: 0;
     text-align: left;
     color: #4a4a4a;
 }
 
+.Rectangle-5-Copy {
+    width: 138px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 11px;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.Rectangle-5-Copy:hover {
+    background-color: #eef0f3;
+}
+
+/*    transfer button     */
+
 .Withdrawal {
+    margin-left: 0;
     width: 107px;
     height: 28px;
     object-fit: contain;
@@ -70,6 +111,7 @@
 }
 
 .History {
+    margin-left: 0;
     width: 69px;
     height: 28px;
     object-fit: contain;
@@ -84,8 +126,4 @@
     color: #4a4a4a;
 }
 
-Link {
-    color: #000000;
-    text-decoration: none;
-}
 
