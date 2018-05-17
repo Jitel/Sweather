@@ -40,7 +40,7 @@ class Withdrawal extends Component {
                     </h2>
                         <div className="NEW-BUTTON">
                             <div><input className='AMOUNT Rectangle-3' placeholder="Amount"/>
-                            <button  color='yellow' className='Rectangle DEPOSIT'>Withdraw</button></div>
+                            <button  type="textid" className='Rectangle DEPOSIT'>Withdraw</button></div>
                         </div>
                 </div>
 

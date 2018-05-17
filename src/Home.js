@@ -7,10 +7,6 @@ import './Home.css'
 
 class Home extends Component {
 
-    constructor(props){
-        super(props);
-
-    }
 
     render() {
         return (
@@ -18,15 +14,27 @@ class Home extends Component {
                 <div className="Rectangle-4">
                     <h2 className='Wallet'>Wallet</h2>
                     <div>
-                        <a className="xa5b28931b3ee0cb776"><select className="Rectangle-2-Copy-10">
-                            <option value='id'>ffgg</option>
-                            <option value='id'>0ggtghthrjy7jb28931b3ee0cb7766dc95fa89c027a69d924e9</option>
-                            <option value='id'>rtyu6uy6uj65ry</option>
-                        </select></a>
-
+                        <input font-size="2em" className="Rectangle-2-Copy-10 " list='languages'
+                               placeholder='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
+                        <datalist className="xa5b28931b3ee0cb776" id='languages'>
+                            <optionc value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
+                        </datalist>
                     </div>
                     <div className='Rectangle-Copy'>
-00
+                        <div>
+                            <b className="layer">0</b>
+                            <b className="-copy">0</b>
+                        </div>
+                        <div>
+                            <b className="ETHER-ON-CHAIN"><b className="fb">ETHER</b> ON-CHAIN</b>
+                            <b className="ETHER-OFF-CHAIN"><b className="fb">ETHER</b> OFF-CHAIN</b>
+                        </div>
+
+                        <input className="Rectangle-3-Copy" id="amount" placeholder="AMOUNT"/>
+
+                        <button color='yellow' type="button" className='Rectangle-3 '>DEPOSIT</button>
+
+
                     </div>
                 </div>
 
