@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Image, Input, Statistic, Label, Icon, Button} from 'semantic-ui-react'
 import Header from './Header'
 import Main from './Main'
 

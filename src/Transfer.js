@@ -2,51 +2,38 @@
  * Created by jitel on 22.4.18.
  */
 import React, {Component} from "react";
-import {Image, Input, Statistic, Label, Icon, Button, Header} from "semantic-ui-react";
-import "./Home.css";
+import "./Transfer.css";
 class Transfer extends Component {
     render() {
         return (
-            <div className="Home">
+            <div className="Rectangle-Copy-2">
                 <div className="Rectangle-4">
-                    <div className="Label">
-                        <h2 className="Wallet">Wallet</h2>
+                    <h2 className='Wallet'>Wallet</h2>
+                    <div>
+                        <input font-size="2em" className="Rectangle-2-Copy-10 " list='languages'
+                               placeholder='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
+                        <datalist className="xa5b28931b3ee0cb776" id='languages'>
+                            <optionc value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
+                        </datalist>
+                    </div>
+                    <div className='Rectangle-Copy'>
                         <div>
-                            <input font-size="2em" className="Rectangle-2-Copy-10" list='languages'
-                                   placeholder='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
-                            <datalist className="xa5b28931b3ee0cb776" id='languages'>
-                                <optionc value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
-                            </datalist>
+                            <b className="layer">0</b>
+                            <b className="-copy">0</b>
                         </div>
-                    </div>
-                </div>
-                <div className="podo">
-                    <p className="layer">
-                        0
-                    </p>
-                    <p className="-copy">
-                        0
-                    </p>
-                </div>
 
-
-
-                <div>
-                    <h2 className='ETHER-ON-CHAIN'>
-                        ether
-                        <p className="dodo">on-chain</p>
-                    </h2>
-                    <h2 className='ETHER-OFF-CHAIN'>
-                        ether
-                        <p className="dodo">off-chain</p>
-                    </h2>
-                    <div className="end">
-                        <button className="Rectangle-3-Copy RECEPIENT-ADDRESS">Recepient Adress</button>
-                    </div>
-                        <div className="NEW-BUTTON">
-                            <div><input className='AMOUNT Rectangle-3' placeholder="Amount"/>
-                            <button  color='yellow' className='Rectangle DEPOSIT'>Send</button></div>
+                        <div>
+                            <b className="ETHER-ON-CHAIN"><b className="fb">ETHER</b> ON-CHAIN</b>
+                            <b className="ETHER-OFF-CHAIN"><b className="fb">ETHER</b> OFF-CHAIN</b>
                         </div>
+
+                        <div>
+                            <input className="Rectangle-10-Copy" id="amount" placeholder="RECEPIENT ADDRESS"/>
+                        </div>
+
+                        <input className="Rectangle-3-Copy" id="amount" placeholder="AMOUNT"/>
+                        <button color='yellow' id="button" className='DEPOSIT '>SEND</button>
+                    </div>
                 </div>
 
             </div>

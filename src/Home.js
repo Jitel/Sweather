@@ -14,7 +14,7 @@ class Home extends Component {
                 <div className="Rectangle-4">
                     <h2 className='Wallet'>Wallet</h2>
                     <div>
-                        <input font-size="2em" className="Rectangle-2-Copy-10 " list='languages'
+                        <input className="Rectangle-2-Copy-10 " list='languages'
                                placeholder='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
                         <datalist className="xa5b28931b3ee0cb776" id='languages'>
                             <optionc value='0xa5b28931b3ee0cb7766dc95fa89c027a69d924e9'/>
@@ -29,12 +29,8 @@ class Home extends Component {
                             <b className="ETHER-ON-CHAIN"><b className="fb">ETHER</b> ON-CHAIN</b>
                             <b className="ETHER-OFF-CHAIN"><b className="fb">ETHER</b> OFF-CHAIN</b>
                         </div>
-
                         <input className="Rectangle-3-Copy" id="amount" placeholder="AMOUNT"/>
-
-                        <button color='yellow' type="button" className='Rectangle-3 '>DEPOSIT</button>
-
-
+                        <button color='yellow' id="button" className='DEPOSIT '>DEPOSIT</button>
                     </div>
                 </div>
 
